@@ -1,12 +1,12 @@
 {
 	"autodeskProduct":	"Fusion",
 	"type":	"addin",
-	"id":	"9255c538-3704-47a2-86d1-a8ab744de090",
-	"author":	"Autodesk",
+	"id":	"8e174c6f-3e0f-4b9d-9c41-19db6bfa775b",
+	"author":	"Jarkko Kallio",
 	"description":	{
 		"":	"Demonstrates using the Fusion API to create a new component that is a spur gear."
 	},
-	"version":	"",
+	"version":	"0.1",
 	"runOnStartup":	false,
 	"supportedOS":	"windows|mac",
 	"editEnabled":	true
