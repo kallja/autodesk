@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"id":	"9255c538-3704-47a2-86d1-a8ab744de090",
+	"author":	"Autodesk",
+	"description":	{
+		"":	"Demonstrates using the Fusion API to create a new component that is a spur gear."
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
