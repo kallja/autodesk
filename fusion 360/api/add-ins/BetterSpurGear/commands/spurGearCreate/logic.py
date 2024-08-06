@@ -398,7 +398,7 @@ def involutePoint(baseCircleRadius, distFromCenterToInvolutePoint):
 
 
 # Builds a spur gear.
-def drawGear(design, diametralPitch, numTeeth, thickness, rootFilletRad, pressureAngle, backlash, holeDiam):
+def drawGear(design: adsk.fusion.Design, diametralPitch, numTeeth, thickness, rootFilletRad, pressureAngle, backlash, holeDiam):
     try:
         # The diametral pitch is specified in inches but everthing
         # here expects all distances to be in centimeters, so convert
@@ -424,7 +424,7 @@ def drawGear(design, diametralPitch, numTeeth, thickness, rootFilletRad, pressur
         outsideDia = (numTeeth + 2) / diametralPitch
         
         # Create a new component by creating an occurrence.
-        occs = design.rootComponent.occurrences
+        occs = design.activeComponent.occurrences
         mat = adsk.core.Matrix3D.create()
         newOcc = occs.addNewComponent(mat)        
         newComp = adsk.fusion.Component.cast(newOcc.component)
